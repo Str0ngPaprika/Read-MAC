@@ -81,6 +81,7 @@ namespace Read_MAC
 
     public static class RichTextBoxExtensions
     {
+        //Add color text to Rich Text Box
         public static void AppendText(this RichTextBox box, string text, Color color)
         {
             box.SelectionStart = box.TextLength;
